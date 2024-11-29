@@ -101,6 +101,10 @@ body{
   color: #BCBCBC;
 }
 
+.menu__close:hover{
+  color: #FF5017;
+}
+
 .hide{
   transform: translateX(0);
   z-index: 1;
@@ -452,6 +456,10 @@ body{
   .color__text {
     font-size: 110px;
   }
+
+  .order{
+    font-size: 20px;
+  }
 }
 
 
@@ -519,13 +527,23 @@ body{
   .menu__btn span{
     box-sizing: content-box;
     border: 1px solid #000;
-  }
-  .info{
-    padding: 50px 0;
-  }
-  .info__title{
-    font-size: 44px;
-    line-height: 1;
+    }
+    
+    .menu__list-link {
+      font-size: 45px;
+    }
+    
+    .menu__close {
+      font-size: 45px;
+    }
+    
+    .info {
+      padding: 50px 0;
+    }
+    
+    .info__title {
+      font-size: 44px;
+      line-height: 1;
   }
   .color__text {
     font-size: 45px;
